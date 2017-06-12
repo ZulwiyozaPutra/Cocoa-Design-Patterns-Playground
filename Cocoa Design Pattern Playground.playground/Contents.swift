@@ -58,7 +58,7 @@ struct CounterModel {
 }
 
 
-class ViewController {
+class CounterController {
     
     var counterModel: CounterModel = CounterModel()
     var counterValue: Int = 0
@@ -88,7 +88,7 @@ class ViewController {
     }
 }
 
-let viewController = ViewController()
-viewController.incrementButton.sendActions(for: .touchUpInside)
-viewController.incrementButton.sendActions(for: .touchUpInside)
-viewController.counterValue
+let counterController = CounterController()
+counterController.incrementButton.sendActions(for: .touchUpInside)
+counterController.incrementButton.sendActions(for: .touchUpInside)
+counterController.counterValue
